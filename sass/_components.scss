@@ -1,0 +1,69 @@
+// 
+// LOGO 
+.logo { 
+    height: 3.25rem;
+}
+
+// 
+// SEARCH 
+.search { 
+    background-color: orangered;
+    flex: 0 0 40%; 
+    
+    &__input { 
+        padding: .7rem 2rem;
+        border: none; 
+        border-radius: 100px;
+        width: 90%
+        background-color: var(--color-grey-light-2);
+        color: inherit;
+        font-size: inherit;
+        font-family: inherit;
+        transition: all .2s; 
+        
+        &:focus { 
+            outline: none; 
+            width: 100%; 
+            background-color: var(--color-grey-light-3);
+        }
+    }
+
+
+    &__button { 
+
+    }
+
+    &__icon { 
+        height: 2rem; 
+        width: 2rem;
+    }
+}
+
+//  
+// USER NAVIGATION 
+.user-navigation { 
+    &__icon-box { 
+
+    }
+
+    &__icon { 
+        height: 2.25rem; 
+        width: 2.25rem;
+    }
+
+    &__notification { 
+
+    }
+
+    &__user { 
+
+    }
+
+    &__user-photo { 
+        border-radius: 50%;
+    }
+
+    &__user-name { 
+
+    }
+}
