@@ -81,6 +81,7 @@ body {
 
 /* LOGO */
 .logo { 
+    margin-left: 3rem;
     height: 3.25rem;
 }
 
