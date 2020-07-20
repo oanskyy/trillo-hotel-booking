@@ -2,7 +2,7 @@
 // LOGO 
 .logo { 
     height: 3.25rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
 }
 
 // 
@@ -39,7 +39,6 @@
 
     &__input:focus + &__button { 
         background-color: var(--color-grey-light-3);
-
     }
 
     &__button { 
@@ -64,29 +63,51 @@
 
 //  
 // USER NAVIGATION 
-.user-navigation { 
-    &__icon-box { 
+.user-nav { 
+    align-self: stretch;
+    display: flex;
+    align-items: center; 
 
+    & > * { 
+        display: flex; 
+        align-items: center;
+        padding: 0 2rem; 
+        height: 100%; 
+        cursor: pointer; 
+    }
+
+    & > *:hover { 
+        background-color: var(--color-grey-light-2);
+    }
+
+    &__icon-box { 
+        position: relative;
     }
 
     &__icon { 
         height: 2.25rem; 
         width: 2.25rem;
+        fill: var(--color-grey-dark-2);
     }
 
     &__notification { 
-
-    }
-
-    &__user { 
-
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 1.5rem; 
+        right: 1.1rem;
+        height: 1.75rem; 
+        width: 1.75rem;
+        border-radius: 50%;
+        background-color: var(--color-primary);
+        color: #fff;
+        font-size: .8rem; 
     }
 
     &__user-photo { 
+        height: 3.75rem; 
+        margin-right: 1rem;
         border-radius: 50%;
-    }
-
-    &__user-name { 
-
     }
 }
