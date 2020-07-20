@@ -2,19 +2,14 @@
     --color-primary: #eb2f64; 
     --color-primary-light: #FF3366;
     --color-primary-dark: #BA265D;
-    
     --color-grey-light-1: #faf9f9;
     --color-grey-light-2: #f4f2f2;
     --color-grey-light-3: #f0eeee;
     --color-grey-light-4: #ccc;
-
     --color-grey--dark-1: #333;
     --color-grey-dark-2: #777;
     --color-grey-dark-3: #999;
-
     --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .3);
-
-    
 }
 
 * { 
@@ -26,13 +21,12 @@
 *::before, 
 *::after { 
     box-sizing: inherit;
-    /* font-size: 16px; */
-    /* font-size: 62.5%;   */
-    /*  1rem = 10px  */
 }
 
 html { 
     box-sizing: border-box;
+    font-size: 62.5%;  
+    /*  1rem = 10px  */
 }
 
 body { 
@@ -58,7 +52,6 @@ body {
 .header { 
     height: 7rem; 
     background-color: var(--color-grey-light-2);
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,6 +86,7 @@ body {
     align-items: center; 
     justify-content: center;
 }
+
 
 .search__input { 
     padding: .7rem 2rem;
@@ -132,6 +126,7 @@ body {
 .search__button:active { 
     transform: translateY(2px);
 }
+
 
 .search__icon { 
     height: 2rem; 
